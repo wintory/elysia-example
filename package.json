@@ -6,10 +6,12 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/swagger": "^1.1.1",
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "prettier": "^3.3.3"
   },
   "module": "src/index.js"
 }
